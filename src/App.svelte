@@ -26,7 +26,7 @@
 <TailwindCSS />
 
 <div class="absolute w-full overflow-hidden " >
-  <div class="mt-[15rem] flex justify-center items-center font-noto font-black text-[23rem]" style="
+  <div class="mt-[15rem] flex justify-center items-center font-noto font-black text-[20rem] md:text-[23rem]" style="
   text-align: center;
   text-transform: uppercase;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 25.5%, rgba(255, 255, 255, 0) 93.65%);
@@ -36,18 +36,32 @@
   text-fill-color: transparent;
   ">PORTFOLIO</div>
 </div>
+
+<div class="absolute w-full overflow-hidden mt-[110.875rem] md:mt-[221.875rem] xl:mt-[106.25rem] " >
+  <div class="mt-[15rem] flex justify-center items-center font-noto font-black text-[35.081875rem]" style="
+  text-align: center;
+  text-transform: uppercase;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.04) 25.5%, rgba(255, 255, 255, 0) 93.65%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  ">D*CODE</div>
+</div>
 <main class="container mx-auto scroll-smooth ">
   <div class="grid justify-center grid-cols-1 2xl:grid-cols-2 ">
     
-    <div class=" h-[80.6875rem]  relative order-2	2xl:order-1  ">
+    <div class=" md:h-[80.6875rem] h-[50.6875rem] relative order-2	2xl:order-1  md:scale-100 scale-50 md:mt-0 mt-[-14rem]">
 
-      <div class="absolute left-[6rem] ">
+      <div class="absolute left-[6rem]">
       <div class="absolute w-[52.755rem] mt-[8rem] left-[-31.5rem] h-[52.755rem] ">
         <div class="flex items-center justify-center w-full h-full">
           <img src="./img/logo-colourful.png" style="transform: rotate(17.28deg)" alt="">
 
         </div>
       </div>
+
+   
       <div class="absolute w-[21.8125rem] h-[15.4375rem] mt-[-0.625rem] flex justify-center items-center ">
       <svg  width="349" height="247" viewBox="0 0 349 247" fill="none" xmlns="http://www.w3.org/2000/svg">
         <path d="M10.9468 238.908C51.17 250.93 137.298 244.43 160.024 122.26C182.75 0.0899038 294.723 -6.19951 347.869 5.92704" stroke="#353B4B" stroke-width="3"/>
@@ -68,6 +82,7 @@
         </svg>
       </div>
     </div>
+
     <div class=" absolute w-[14.5rem] h-[4.3rem] mt-[38.5rem] left-[8.8rem]">
       <div class="relative w-full h-full ">
         <div class="absolute w-[1.75rem] h-[1.75rem] ">
@@ -90,10 +105,10 @@
       </div>
     </div>
       
-        <div class="absolute text-4xl 2xl:text-5xl font-bold text-white font-jetbrains-mono mt-[45.3rem] left-[10rem] 2xl:w-[50rem] ">
+        <div class="absolute text-2xl w-[24rem] md:w-[40rem] md:text-4xl 2xl:text-5xl font-bold text-white font-jetbrains-mono mt-[45.3rem] left-[10rem] 2xl:w-[50rem] ">
           Hi I’m Nitipoom Aumpitak -
         </div>
-        <div class="absolute 2xl:pt-[0px] pt-[20px] text-4xl 2xl:text-5xl font-bold text-white font-noto mt-[49.3rem] left-[10rem] " style="
+        <div class="absolute 2xl:pt-[0px]  w-[15rem] md:w-[30rem] md:pt-[20px]  text-2xl md:text-4xl 2xl:text-5xl font-bold text-white font-noto mt-[47.3rem] md:mt-[49.3rem] left-[10rem] " style="
         background: linear-gradient(90deg, rgba(50, 73, 140, 0.76) 0%, rgba(189, 57, 132, 0.76) 103.68%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -127,31 +142,33 @@
       
     </div>
     
-    <div class=" h-[80.6875rem] relative order-1 2xl:order-2">
+    <div class=" xl:h-[80.6875rem] h-[49.6875rem] md:h-[60.6875rem]  relative order-1 2xl:order-2">
       <div class="absolute w-full h-full">
         <div class="flex items-center justify-center w-full h-full">
 
-          <div class="w-0 h-2/3" style="border: 2px dashed #272525;"></div>
+          <div class="w-0 h-full xl:h-2/3 !border-[1px] md:!border-[2px] " style="border: 2px dashed #272525;"></div>
         </div>
         
       </div>
 
       <div class="absolute w-full h-full">
         <div class="flex justify-center w-full h-full">
-          <div class="flex justify-center items-center w-[22.1875rem] h-[23.5rem] mt-[8.125rem]">
+          <div class="flex justify-center items-center w-[17.1875rem] md:w-[22.1875rem] h-[18.5rem] md:h-[23.5rem] mt-[8.125rem]">
             <img src="./img/my-img.png" alt="">
           </div>
         </div>
       </div>
-
+       <!-- CHATBOX SECTION -->
       <div class="absolute w-full h-full">
-        <div class="flex flex-col items-center justify-center w-full h-[23.5rem] mt-[8.125rem] scale-[0.70] xl:scale-100">
-          <div class="w-[14.125rem]  h-[5.125rem] ml-[-25.1rem] relative">
+     
+        <div class="slide-in-elliptic-bottom-fwd flex flex-col items-center justify-center w-full h-[23.5rem] mt-[8.125rem] scale-[0.55] md:scale-[0.70] xl:scale-100">
+             <!-- 1 -->
+          <div class="w-[14.125rem]  h-[5.125rem] ml-[-25.1rem] relative chatbox-skewY-v1 " >
             <div class="absolute bg-[#44444445] w-full h-full "
         
-            style="backdrop-filter: blur(32.0719px);clip-path : path('M0 5.94234C0 2.72183 2.61074 0.111084 5.83125 0.111084H219.741C222.962 0.111084 225.572 2.72183 225.572 5.94234V51.6638C225.572 54.5257 223.252 56.8458 220.39 56.8458V56.8458C217.528 56.8458 215.208 59.1659 215.208 62.0279V77.0107L198.654 58.7595C197.549 57.5408 195.98 56.8458 194.335 56.8458H5.83126C2.61075 56.8458 0 54.2351 0 51.0146V5.94234Z')" 
+            style="backdrop-filter: blur(5px) !important;clip-path : path('M0 5.94234C0 2.72183 2.61074 0.111084 5.83125 0.111084H219.741C222.962 0.111084 225.572 2.72183 225.572 5.94234V51.6638C225.572 54.5257 223.252 56.8458 220.39 56.8458V56.8458C217.528 56.8458 215.208 59.1659 215.208 62.0279V77.0107L198.654 58.7595C197.549 57.5408 195.98 56.8458 194.335 56.8458H5.83126C2.61075 56.8458 0 54.2351 0 51.0146V5.94234Z')" 
             >
-            <div class="flex items-center justify-center w-full h-[4rem] font-thin text-white font-noto">
+            <div class="flex items-center justify-center w-full h-[4rem]  text-white font-noto">
               You can call me Bus  🙌
             </div>
             </div>
@@ -160,13 +177,13 @@
               <img src="./img/moji_1.png" alt="">
             </div>
           </div>
-          
-          <div class="w-[14.6875rem]  h-[5.0625rem] mr-[-25.8rem] relative ">
+             <!-- 2 -->
+          <div class="w-[14.6875rem]  h-[5.0625rem] mr-[-25.8rem] relative chatbox-skewY-v2" >
             <div class="absolute bg-[#44444445] w-full h-full "
         
-            style="backdrop-filter: blur(32.0719px);clip-path : path('M235.093 6.73207C235.093 3.51156 232.482 0.900818 229.262 0.900818H5.8312C2.61069 0.900818 -5.28239e-05 3.51156 -5.28239e-05 6.73207V52.2348C-5.28239e-05 55.2176 2.41796 57.6356 5.40072 57.6356V57.6356C8.38349 57.6356 10.8015 60.0536 10.8015 63.0363V77.8005L28.1375 59.4611C29.239 58.2958 30.7717 57.6356 32.3751 57.6356H229.262C232.482 57.6356 235.093 55.0248 235.093 51.8043V6.73207Z')" 
+            style="backdrop-filter: blur(5px) !important;clip-path : path('M235.093 6.73207C235.093 3.51156 232.482 0.900818 229.262 0.900818H5.8312C2.61069 0.900818 -5.28239e-05 3.51156 -5.28239e-05 6.73207V52.2348C-5.28239e-05 55.2176 2.41796 57.6356 5.40072 57.6356V57.6356C8.38349 57.6356 10.8015 60.0536 10.8015 63.0363V77.8005L28.1375 59.4611C29.239 58.2958 30.7717 57.6356 32.3751 57.6356H229.262C232.482 57.6356 235.093 55.0248 235.093 51.8043V6.73207Z')" 
             >
-            <div class="flex items-center justify-center w-full h-[4rem] font-thin text-white font-noto">
+            <div class="flex items-center justify-center w-full h-[4rem]  text-white font-noto">
               That was really awesome!
             </div>
             </div>
@@ -176,13 +193,14 @@
             </div>
             
           </div>
-          <div class="w-[16.890625rem]  h-[5.125rem]  ml-[-21.1rem] mt-[4rem] relative">
+          <!-- 3 -->
+          <div class="w-[16.890625rem]  h-[5.125rem]  ml-[-21.1rem] mt-[4rem] relative chatbox-skewY-v3" >
 
             <div class="absolute bg-[#44444445] w-full h-full "
-            style="backdrop-filter: blur(32.0719px);
+            style="backdrop-filter: blur(5px) !important;
             clip-path : path('M0.182861 75.5546C0.182861 78.7751 2.7936 81.3859 6.01411 81.3859H264.599C267.819 81.3859 270.43 78.7751 270.43 75.5546V26.7539C270.43 24.1005 268.279 21.9495 265.626 21.9495V21.9495C262.972 21.9495 260.821 19.7984 260.821 17.145V0.824333L245.615 19.7684C244.508 21.1473 242.836 21.9495 241.067 21.9495H6.0141C2.79359 21.9495 0.182861 24.5602 0.182861 27.7807V55.6394V75.5546Z')" 
             >
-            <div class="flex items-center justify-center w-full h-[7rem] font-thin text-white font-noto">
+            <div class="flex items-center justify-center w-full h-[7rem]  text-white font-noto">
               Different is better than better
             </div>
             </div>
@@ -194,12 +212,12 @@
         </div>
       </div>
 
-      <div class="absolute w-full h-full ">
+      <div class="absolute w-full h-full scale-75 md:scale-100 ">
         <div class="flex flex-col justify-center items-center w-full h-[19.5625rem] mt-[34.1875rem] gap-y-[2.5rem]">
           <div class="relative w-full h-12">
             <div class="absolute w-full h-full ">
               <div class="flex items-center justify-center w-full h-12">
-                <div class="text-[#979494] hover:text-white font-bold text-base uppercase  ml-[16.5rem] transition-all duration-1000 w-[12rem] text-left">errorism#0001</div>
+                <div class="text-white hover:text-white font-medium text-base uppercase ml-[14.5rem] md:ml-[16.5rem] transition-all duration-1000 w-[12rem] text-left focus-in-expand-fwd">errorism#0001</div>
               </div>
             </div>
             <div class="absolute w-full h-full ">
@@ -216,7 +234,7 @@
           <div class="relative w-full h-12">
             <div class="absolute w-full h-full ">
               <div class="flex items-center justify-center w-full h-12">
-                <div class="text-[#979494] hover:text-white font-bold text-base uppercase mr-[16.5rem] transition-all duration-1000 w-[12rem] text-right">hex.bsry</div>
+                <div class="text-white hover:text-white font-medium  text-base uppercase mr-[14.5rem] md:mr-[16.5rem] transition-all duration-1000 w-[12rem] text-right focus-in-expand-fwd">hex.bsry</div>
               </div>
             </div>
             <div class="absolute w-full h-full ">
@@ -233,7 +251,7 @@
           <div class="relative w-full h-12">
             <div class="absolute w-full h-full ">
               <div class="flex items-center justify-center w-full h-12">
-                <div class="text-[#979494] hover:text-white font-bold text-base uppercase ml-[16.5rem] transition-all duration-1000 w-[12rem] text-left">error.bus</div>
+                <div class="text-white hover:text-white font-medium text-base uppercase ml-[14.5rem] md:ml-[16.5rem] transition-all duration-1000 w-[12rem] text-left focus-in-expand-fwd">error.bus</div>
               </div>
             </div>
             <div class="absolute w-full h-full ">
@@ -250,7 +268,7 @@
           <div class="relative w-full h-12">
             <div class="absolute w-full h-full ">
               <div class="flex items-center justify-center w-full h-12">
-                <div class="text-[#979494] hover:text-white font-bold text-base uppercase mr-[16.5rem] transition-all duration-1000 w-[12rem] text-right">errorismx</div>
+                <div class="text-white hover:text-white font-medium text-base uppercase mr-[14.5rem] md:mr-[16.5rem] transition-all duration-1000 w-[12rem] text-right focus-in-expand-fwd">errorismx</div>
               </div>
             </div>
             <div class="absolute w-full h-full ">
@@ -273,8 +291,8 @@
       </div>
 
     </div>
-    <div class="relative order-3 xl:col-span-2 h-[12.1875rem]  mt-[-17.5rem] left-[20rem] w-[40vw] overflow-hidden xl:w-[70vw] ">
-      <div class="absolute  w-[89.3125rem] h-[12.1875rem]">
+    <div class="relative order-3 xl:col-span-2 h-[12.1875rem] mt-[-9.5rem] md:mt-[-17.5rem] md:left-[20rem] left-[17rem] w-[25vw] md:w-[40vw] overflow-hidden xl:w-[70vw] ">
+      <div class="absolute  w-[89.3125rem] h-[12.1875rem] ">
         <svg  viewBox="0 0 1429 195" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M16 100.804C78.8333 38.304 242 -49.196 392 100.804C579.5 288.304 812 125.304 841.5 100.804C871 76.304 1044.5 -104.196 1249.5 100.804C1413.5 264.804 1538.83 169.137 1581 100.804" stroke="#794188" stroke-width="7"/>
           <path d="M16 100.804C78.8333 38.304 242 -49.196 392 100.804C579.5 288.304 812 125.304 841.5 100.804C871 76.304 1044.5 -104.196 1249.5 100.804C1413.5 264.804 1538.83 169.137 1581 100.804" stroke="#353B4B"/>
@@ -304,11 +322,11 @@
       </div>
 
     </div>
-    <div class=" relative h-[50rem] order-last ">
-      <img src="./img/my-skill.png" alt="">
+    <div class=" relative h-[12rem] md:h-[45rem] xl:h-[50rem] order-last mt-0 ">
+      <img src="./img/my-skill.png" class="scale-75 md:scale-100" alt="">
     </div>
     <div class=" relative h-[50rem] order-last ">
-      <div class="flex justify-center h-full ">
+      <div class="flex justify-center h-full scale-50 md:scale-100">
         <div class="relative  w-[1rem] h-full rotate-90 mt-[-2rem]">
           <div class="flex items-center justify-end text-[#C8C8C8] mt-[24rem]  ">
             <p class="  text-[1.25rem] rotate-180  pl-4 ">CONTRACT&nbsp;ME</p>
@@ -319,21 +337,118 @@
         <div class="ml-[1.875rem] w-[30.375rem]">
           <div class="text-[2.5rem] text-white font-noto font-bold">Who I Am?</div>
           <div class="w-full text-[#B0B0B0] text-[1.25rem] font-noto font-light" style="
-          letter-spacing: 1.5px;
-          line-height: 33px;
+          letter-spacing: 1px;
+          line-height: 25px;
 
           ">
             <p>I’m a Fullstack Developer who lived in Thailand but actually I need to learn more about this. I have a serious passion for UI effects, UI design and game mechanic. 
               <br><br>
               Well-organised person, problem solver, im just a college student who like do some coding hobbies to make money. Fan of video games and Netflix series.
               <br><br>
-              Interested in the entire frontend and game spectrum and working on ambitious projects with positive people.
+              Interested in the entire frontend and game spectrum and working on ambitious projects with <span class="underline decoration-slate-50 ">positive people</span> .
               </p>
+          </div>6.25
+
+          <!-- Timeline Section -->
+          <!-- 1 -->
+          <div class=" w-[30.375rem] h-[6.25rem] rounded-[0.34375rem] flex  items-center " style="
+          background-image: url(../img/timeline-bg-1.png); background-size: cover;
+          ">
+          <div class="h-full w-[17.1875rem] ">
+            <div class="w-full h-[4.9375rem] flex  items-center "style="
+            backdrop-filter: blur(22.3087px);
+            border-radius: 5.36865px 24.3455px 24.3455px 24.3455px;
+            ">
+            <div class="w-[13rem] ">
+              <div class="text-[0.875rem] text-white font-bold pl-6 font-noto">I was a student at</div>
+          <div class="text-[0.625rem] text-white font-light pl-6 font-noto">Santichon Islamic School</div>
+            </div>
+          
+          <div class="w-12 h-12"><img src="./img/timeline-icon-1.png" alt=""></div>
           </div>
+          </div>
+          <div class="w-[12.125rem] text-right text-white text-base font-bold font-noto">2016-2019</div>
         </div>
+        <!-- 2 -->
+        <div class="w-[30.375rem] h-[6.25rem] rounded-[0.34375rem] flex  items-center mt-[20px]" style="
+        background-image: url(../img/timeline-bg-2.png); background-size: cover;
+        ">
+        <div class="h-full w-[17.1875rem] ">
+          <div class="w-full h-[4.9375rem] flex  items-center "style="
+          backdrop-filter: blur(22.3087px);
+          border-radius: 5.36865px 24.3455px 24.3455px 24.3455px;
+          ">
+          <div class="w-[13rem] ">
+            <div class="text-[0.875rem] text-white font-bold pl-6 font-noto">I was a student at</div>
+        <div class="text-[0.625rem] text-white font-light pl-6 font-noto">International Islamic School Malaysia</div>
+          </div>
+        
+        <div class="w-12 h-12"><img src="./img/timeline-icon-2.png" alt=""></div>
+        </div>
+        </div>
+        <div class="w-[12.125rem] text-right text-white text-base font-bold font-noto">2019-2020</div>
       </div>
+        <!-- 3 -->
+        <div class="w-[30.375rem] h-[6.25rem] rounded-[0.34375rem] flex  items-center mt-[20px]" style="
+        background-image: url(../img/timeline-bg-3.png); background-size: cover;
+        ">
+        <div class="h-full w-[17.1875rem] ">
+          <div class="w-full h-[4.9375rem] flex  items-center "style="
+          backdrop-filter: blur(22.3087px);
+          border-radius: 5.36865px 24.3455px 24.3455px 24.3455px;
+          ">
+          <div class="w-[13rem] ">
+            <div class="text-[0.875rem] text-white font-bold pl-6 font-noto">I'm currently studying at</div>
+        <div class="text-[0.625rem] text-white font-light pl-6 font-noto">Assumption university</div>
+          </div>
+        
+        <div class="w-12 h-12"><img src="./img/timeline-icon-3.png" alt=""></div>
+        </div>
+        </div>
+        <div class="w-[12.125rem] text-right text-white text-base font-bold font-noto">2021- now</div>
+      </div>
+
+
+
+
+
+        </div>
+
+       
+
+
+      </div>
+   
     </div>
- 
+        <!-- D*CODE SECTION -->
+        <div class="h-[11.0625rem]  xl:col-span-2 order-last grid grid-cols-1 xl:grid-cols-4 gap-x-0 gap-y-1  md:gap-y-10 mt-[-13rem] md:mt-[5rem] z-10">
+          <div class="flex items-center justify-center xl:justify-end xl:col-span-1 xl:pr-8">
+            <img src="./img/dcode-logo.png" class="md:scale-100 scale-75 w-[11.0625rem] h-[11.0625rem]" alt="">
+          </div> 
+          <div class="xl:col-span-3 ">
+            <div class="px-10 text-base font-bold text-center text-white md:px-20 md:text-2xl xl:pt-4 xl:text-3xl xl:px-0 xl:text-left font-noto">Why I want to be a part of the <span style="background: linear-gradient(90.01deg, #CCCB5D 0.01%, #75BD9D 50%, #20B0DB 99.99%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+              background-clip: text;
+              text-fill-color: transparent;">D*CODE research laboratory</span>  member</div>
+              <div class="text-[#B7B7B7] xl:text-xl  text-xs  md:text-sm font-noto pt-4  text-center px-10 xl:px-0  xl:text-left">
+                Because I believe that it will bring me to alot of oppurtunity and it is my dream for a long time that I want to work with
+    people who know about computer stuff since I am a self-taught so I have no friend to write code or doing project with and I know at the first place that this lab can fullfill my dream.
+              </div>
+        </div>
+      
+      </div>
+      
+      <div class="flex items-center justify-center mt-[9rem] md:mt-0 xl:col-span-2  order-last">
+        <img src="./img/moji_4.png" class="w-[3.75rem] md:w-[15.75rem] h-[3.75rem] md:h-[15.75rem]" alt="">
+      </div>
+
+      <div class="flex items-center justify-center order-last w-full h-24 pt-10 md:pt-24 md:mt-0 xl:col-span-2">
+        <div class="text-2xl text-white md:text-6xl font-noto">PROJECT GALLERY</div>
+        
+      </div>
+
+  
   </div>
 </main>
 
