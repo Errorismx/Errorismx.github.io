@@ -105,10 +105,10 @@
       </div>
     </div>
       
-        <div class="absolute text-2xl w-[24rem] md:w-[40rem] md:text-4xl xl:text-5xl font-bold text-white font-jetbrains-mono mt-[45.3rem] left-[10rem] 2xl:w-[50rem] ">
+        <div class="absolute xl:w-[50rem] text-2xl w-[24rem] md:w-[40rem] md:text-4xl xl:text-5xl font-bold text-white font-jetbrains-mono mt-[45.3rem] left-[10rem] 2xl:w-[50rem] ">
           Hi I’m Nitipoom Aumpitak -
         </div>
-        <div class="absolute xl:pt-[0px]  w-[15rem] md:w-[30rem] md:pt-[20px]  text-2xl md:text-4xl xl:text-5xl font-bold text-white font-noto mt-[47.3rem] md:mt-[49.3rem] left-[10rem] " style="
+        <div class="absolute xl:pt-[0px]   w-[15rem] md:w-[30rem] md:pt-[20px]  text-2xl md:text-4xl xl:text-5xl font-bold text-white font-noto mt-[47.3rem] md:mt-[49.3rem] left-[10rem] " style="
         background: linear-gradient(90deg, rgba(50, 73, 140, 0.76) 0%, rgba(189, 57, 132, 0.76) 103.68%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
