@@ -508,10 +508,10 @@
           
         </div>
        </div>
-       <!-- logo-monotone.png -->
+     
        <div class=" relative h-[3rem] ">
-        <div class="w-full h-full flex items-center justify-center text-[#FFFFFF80] text-sm">
-          <div class="flex items-center justify-start ">PORTFOLIO BY NITIPOOM A. - LATEST UPDATED 17/9/2022</div>
+        <div class="w-full h-full flex items-center justify-center text-[#FFFFFF80] ">
+          <div class="flex items-center justify-start text-xs font-noto ">PORTFOLIO BY NITIPOOM A. - LATEST UPDATED 17/9/2022</div>
       
         </div>
        </div>
@@ -520,37 +520,6 @@
           
       </div>
 
-      
-
-        
-      <!-- <div class="h-[29.6875rem] relative order-last mt-[-13rem] md:mt-[-10rem]  sm:mt-[-13rem] xl:mt-0 lg:mt-[-10rem] 2xl:mt-20">
-        <div class="flex flex-col justify-center h-full text-center 2xl:text-left font-noto">
-  
-          <div class="text-base font-bold text-white md:text-2xl ">GACHAPONG</div>
-          <div class="text-xs  md:text-sm  text-[#AFAFAF] mt-2 px-10 2xl:px-0 ">Gachapong script for fivem which players can donate the point and open loot boxes. inpiration from pubg. Moreover, it provide anticheat for hacking point which check every purchase in serverside.</div>
-          <div class="mt-4 text-sm font-bold text-white md:text-xl">TECH STACK</div>
-          <div class="mt-2 text-xs text-[#B7B7B7] px-10 xl:px-0"><span class="text-[#32498C] text-sm md:text-base font-medium">CLIENTSIDE :</span> Lua, Sveltejs, Postcss, Typescript, Tailwindcss, Axiosjs.</div>
-       <div class="mt-2 text-xs text-[#B7B7B7] px-10 xl:px-0"><span class="text-[#BD3984] text-sm md:text-base font-medium">SERVERSIDE :</span> Lua, Mongodb.</div>
-       
-      </div>
-    </div>
-      
-    <div class="h-[29.6875rem] relative order-last mt-[-5rem] sm:mt-[-2rem] md:mt-6  2xl:mt-20">
-      <div class="flex items-center justify-center w-full h-full 2xl:justify-end ">
-        <img src="./img/open-loot-box.gif" alt="">
-      </div>
-     
-    </div> -->
-
-      
-
-      
-
-     
-
-  
-
-  
   </div>
 </main>
 
