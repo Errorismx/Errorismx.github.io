@@ -51,7 +51,7 @@
 <main class="container mx-auto scroll-smooth ">
   <div class="grid justify-center grid-cols-1 2xl:grid-cols-2 ">
     
-    <div class=" md:h-[80.6875rem] h-[50.6875rem] relative order-2	2xl:order-1  md:scale-100 scale-50 md:mt-0 mt-[-14rem]">
+    <div class=" md:h-[80.6875rem] h-[50.6875rem] relative order-2	xl:order-1  md:scale-100 scale-50 md:mt-0 mt-[-14rem]">
 
       <div class="absolute left-[6rem]">
       <div class="absolute w-[52.755rem] mt-[8rem] left-[-31.5rem] h-[52.755rem] ">
@@ -105,10 +105,10 @@
       </div>
     </div>
       
-        <div class="absolute text-2xl w-[24rem] md:w-[40rem] md:text-4xl 2xl:text-5xl font-bold text-white font-jetbrains-mono mt-[45.3rem] left-[10rem] 2xl:w-[50rem] ">
+        <div class="absolute text-2xl w-[24rem] md:w-[40rem] md:text-4xl xl:text-5xl font-bold text-white font-jetbrains-mono mt-[45.3rem] left-[10rem] 2xl:w-[50rem] ">
           Hi I’m Nitipoom Aumpitak -
         </div>
-        <div class="absolute 2xl:pt-[0px]  w-[15rem] md:w-[30rem] md:pt-[20px]  text-2xl md:text-4xl 2xl:text-5xl font-bold text-white font-noto mt-[47.3rem] md:mt-[49.3rem] left-[10rem] " style="
+        <div class="absolute xl:pt-[0px]  w-[15rem] md:w-[30rem] md:pt-[20px]  text-2xl md:text-4xl xl:text-5xl font-bold text-white font-noto mt-[47.3rem] md:mt-[49.3rem] left-[10rem] " style="
         background: linear-gradient(90deg, rgba(50, 73, 140, 0.76) 0%, rgba(189, 57, 132, 0.76) 103.68%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -142,7 +142,7 @@
       
     </div>
     
-    <div class=" xl:h-[80.6875rem] h-[49.6875rem] md:h-[60.6875rem]  relative order-1 2xl:order-2">
+    <div class=" xl:h-[80.6875rem] h-[49.6875rem] md:h-[60.6875rem]  relative order-1 xl:order-2">
       <div class="absolute w-full h-full">
         <div class="flex items-center justify-center w-full h-full">
 
@@ -291,7 +291,7 @@
       </div>
 
     </div>
-    <div class="relative order-3 xl:col-span-2 h-[12.1875rem] mt-[-9.5rem] md:mt-[-17.5rem] md:left-[20rem] left-[17rem] w-[25vw] md:w-[40vw] overflow-hidden xl:w-[70vw] ">
+    <div class="relative order-3 xl:col-span-2 h-[12.1875rem] mt-[-9.5rem] md:mt-[-17.5rem] md:left-[20rem] sm:left-[20rem] lg:w-[60vw] sm:w-[45vw] left-[17rem] w-[25vw] md:w-[40vw] overflow-hidden xl:w-[70vw] ">
       <div class="absolute  w-[89.3125rem] h-[12.1875rem] ">
         <svg  viewBox="0 0 1429 195" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path d="M16 100.804C78.8333 38.304 242 -49.196 392 100.804C579.5 288.304 812 125.304 841.5 100.804C871 76.304 1044.5 -104.196 1249.5 100.804C1413.5 264.804 1538.83 169.137 1581 100.804" stroke="#794188" stroke-width="7"/>
@@ -322,10 +322,10 @@
       </div>
 
     </div>
-    <div class=" relative h-[12rem] md:h-[45rem] xl:h-[50rem] order-last mt-0 ">
-      <img src="./img/my-skill.png" class="scale-75 md:scale-100" alt="">
+    <div class=" relative h-[12rem] md:h-[45rem]  xl:h-[50rem] order-last mt-0">
+      <img src="./img/my-skill.png" class="scale-75 xl:scale-100 " alt="">
     </div>
-    <div class=" relative h-[50rem] order-last ">
+    <div class=" relative h-[50rem]  order-last sm:mt-[15rem] mt-[5rem] xl:mt-0">
       <div class="flex justify-center h-full scale-50 md:scale-100">
         <div class="relative  w-[1rem] h-full rotate-90 mt-[-2rem]">
           <div class="flex items-center justify-end text-[#C8C8C8] mt-[24rem]  ">
@@ -421,7 +421,7 @@
    
     </div>
         <!-- D*CODE SECTION -->
-        <div class="h-[11.0625rem]  xl:col-span-2 order-last grid grid-cols-1 xl:grid-cols-4 gap-x-0 gap-y-1  md:gap-y-10 mt-[-13rem] md:mt-[5rem] z-10">
+        <div class="h-[23.0625rem] 2xl:h-[11.0625rem] xl:h-[13.0625rem]     xl:col-span-2 order-last grid grid-cols-1 xl:grid-cols-4 gap-x-0 gap-y-1  md:gap-y-10 mt-[-13rem] md:mt-[5rem] z-10">
           <div class="flex items-center justify-center xl:justify-end xl:col-span-1 xl:pr-8">
             <img src="./img/dcode-logo.png" class="md:scale-100 scale-75 w-[11.0625rem] h-[11.0625rem]" alt="">
           </div> 
@@ -439,14 +439,116 @@
       
       </div>
       
-      <div class="flex items-center justify-center mt-[9rem] md:mt-0 xl:col-span-2  order-last">
-        <img src="./img/moji_4.png" class="w-[3.75rem] md:w-[15.75rem] h-[3.75rem] md:h-[15.75rem]" alt="">
+      <div class="flex items-center justify-center order-last w-full h-24 sm:h-44 md:mt-0 xl:col-span-2 xl:h-56">
+        <img src="./img/moji_4.png" class="w-[8.75rem] md:w-[15.75rem] h-[8.75rem] md:h-[15.75rem]" alt="">
       </div>
 
-      <div class="flex items-center justify-center order-last w-full h-24 pt-10 md:pt-24 md:mt-0 xl:col-span-2">
-        <div class="text-2xl text-white md:text-6xl font-noto">PROJECT GALLERY</div>
+      <div class="flex items-center justify-center order-last w-full h-48 py-24 md:pt-24 md:mt-0 xl:col-span-2">
+        <div class="text-3xl text-white sm:text-6xl md:text-6xl font-noto">PROJECT GALLERY</div>
         
       </div>
+      <div class="grid justify-center order-last w-full grid-cols-1 xl:col-span-2 ">
+       
+          <div class="grid grid-cols-1 pb-24 2xl:grid-cols-2 gap-y-8">
+              <div class="flex items-center justify-center w-full h-full 2xl:justify-start ">
+                <img src="./img/vtr-launcher.gif" alt="">
+              </div>
+              <div class="flex flex-col justify-center h-full text-center 2xl:text-left font-noto">
+                <div class="text-base font-bold text-white md:text-2xl ">VTR-LAUNCHER</div>
+                <div class="text-xs  md:text-sm  text-[#AFAFAF] mt-2 px-10 2xl:px-0 ">Game launcher for fivem which require discord Login and provide some basic anticheat using SOCKET to check the realtime heartbeat.</div>
+                <div class="mt-4 text-sm font-bold text-white md:text-xl">TECH STACK</div>
+                <div class="mt-2 text-xs text-[#B7B7B7] px-10 xl:px-0"><span class="text-[#32498C] text-sm md:text-base font-medium">CLIENTSIDE :</span> Nodejs, Electronjs, Passportjs for discord-Auth0, Socketio-client, Express, Sveltejs, Tailwindcss.</div>
+                <div class="mt-2 text-xs text-[#B7B7B7] px-10 xl:px-0"><span class="text-[#BD3984] text-sm md:text-base font-medium">SERVERSIDE :</span> Nodejs, Passportjs for discord-Auth0, Socketio-server, Axios, Express.</div>
+              </div>
+          </div>
+
+          <div class="grid grid-cols-1 pb-24 2xl:grid-cols-2 gap-y-8">
+           <div class="h-[2px] bg-[#222222] w-full col-span-2"></div>
+          </div>
+
+          <div class="grid grid-cols-1 pb-24 2xl:grid-cols-2 gap-y-8">
+           
+            <div class="flex flex-col justify-center order-2 h-full text-center 2xl:text-left font-noto 2xl:order-1">
+              <div class="text-base font-bold text-white md:text-2xl ">GACHAPONG</div>
+              <div class="text-xs  md:text-sm  text-[#AFAFAF] mt-2 px-10 2xl:px-0 ">Gachapong script for fivem which players can donate the point and open loot boxes. inpiration from pubg. Moreover, it provide anticheat for hacking point which check every purchase in serverside.</div>
+              <div class="mt-4 text-sm font-bold text-white md:text-xl">TECH STACK</div>
+              <div class="mt-2 text-xs text-[#B7B7B7] px-10 xl:px-0"><span class="text-[#32498C] text-sm md:text-base font-medium">CLIENTSIDE :</span> Lua, Sveltejs, Postcss, Typescript, Tailwindcss, Axiosjs.</div>
+              <div class="mt-2 text-xs text-[#B7B7B7] px-10 xl:px-0"><span class="text-[#BD3984] text-sm md:text-base font-medium">SERVERSIDE :</span> Lua, Mongodb.</div>
+            </div>
+            <div class="flex items-center justify-center order-1 w-full h-full 2xl:justify-end 2xl:order-2">
+              <img src="./img/open-loot-box.gif" alt="">
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 pb-24 2xl:grid-cols-2 gap-y-8">
+          <div class="h-[2px] bg-[#222222] w-full col-span-2"></div>
+         </div>
+
+
+         <div class="grid grid-cols-1 pb-24 2xl:grid-cols-2 gap-y-8">
+          <div class="flex items-center justify-center w-full h-full ">
+            <img src="./img/skincreator.gif" alt="">
+          </div>
+          <div class="flex flex-col justify-center h-full text-center 2xl:text-left font-noto">
+            <div class="text-base font-bold text-white md:text-2xl ">SKINCREATOR</div>
+            <div class="mt-2 text-sm font-light text-white font-not">This is my first project that I’m start using Nodejs</div>
+            <div class="text-xs  md:text-sm  text-[#AFAFAF] mt-2 px-10 2xl:px-0 ">Skin creator script that link in-Game mouse Event so players can
+              rotate their character model via hold their mouse and move to the direction that they want. For fivem only.</div>
+              <div class="mt-4 text-sm font-bold text-white md:text-xl">Problem</div>
+              <div class="text-xs  md:text-sm  text-[#AFAFAF] mt-2 px-10 2xl:px-0 ">I just start using nodejs for web so as you can see when it select the skin it will show the check icon but the problem is the whole
+                element drop down.</div>
+              <div class="mt-4 text-sm font-bold text-white md:text-xl">TECH STACK</div>
+            <div class="mt-2 text-xs text-[#B7B7B7] px-10 xl:px-0"><span class="text-[#32498C] text-sm md:text-base font-medium">CLIENTSIDE :</span> Lua, Sveltejs, Javascript, Axiosjs.</div>
+            <div class="mt-2 text-xs text-[#B7B7B7] px-10 xl:px-0"><span class="text-[#BD3984] text-sm md:text-base font-medium">SERVERSIDE :</span> Lua, Mongodb.</div>
+          </div>
+      </div>
+      
+      <div class="grid grid-cols-1 2xl:grid-cols-2 gap-y-8">
+        <div class="h-[2px] bg-[#222222] w-full col-span-2">
+          
+        </div>
+       </div>
+       <!-- logo-monotone.png -->
+       <div class=" relative h-[3rem] ">
+        <div class="w-full h-full flex items-center justify-center text-[#FFFFFF80] text-sm">
+          <div class="flex items-center justify-start ">PORTFOLIO BY NITIPOOM A. - LATEST UPDATED 17/9/2022</div>
+      
+        </div>
+       </div>
+
+     
+          
+      </div>
+
+      
+
+        
+      <!-- <div class="h-[29.6875rem] relative order-last mt-[-13rem] md:mt-[-10rem]  sm:mt-[-13rem] xl:mt-0 lg:mt-[-10rem] 2xl:mt-20">
+        <div class="flex flex-col justify-center h-full text-center 2xl:text-left font-noto">
+  
+          <div class="text-base font-bold text-white md:text-2xl ">GACHAPONG</div>
+          <div class="text-xs  md:text-sm  text-[#AFAFAF] mt-2 px-10 2xl:px-0 ">Gachapong script for fivem which players can donate the point and open loot boxes. inpiration from pubg. Moreover, it provide anticheat for hacking point which check every purchase in serverside.</div>
+          <div class="mt-4 text-sm font-bold text-white md:text-xl">TECH STACK</div>
+          <div class="mt-2 text-xs text-[#B7B7B7] px-10 xl:px-0"><span class="text-[#32498C] text-sm md:text-base font-medium">CLIENTSIDE :</span> Lua, Sveltejs, Postcss, Typescript, Tailwindcss, Axiosjs.</div>
+       <div class="mt-2 text-xs text-[#B7B7B7] px-10 xl:px-0"><span class="text-[#BD3984] text-sm md:text-base font-medium">SERVERSIDE :</span> Lua, Mongodb.</div>
+       
+      </div>
+    </div>
+      
+    <div class="h-[29.6875rem] relative order-last mt-[-5rem] sm:mt-[-2rem] md:mt-6  2xl:mt-20">
+      <div class="flex items-center justify-center w-full h-full 2xl:justify-end ">
+        <img src="./img/open-loot-box.gif" alt="">
+      </div>
+     
+    </div> -->
+
+      
+
+      
+
+     
+
+  
 
   
   </div>
