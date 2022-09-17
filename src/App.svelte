@@ -122,7 +122,7 @@
         
         <div class=" absolute h-[5.38375rem] mt-[65.8rem]">
           <div class=" flex justify-center items-center text-[2.5rem] font-bold text-white">
-            <div class="pr-[10px]  h-[5.38375rem]">My,</div>
+            <div class="pr-[10px]  h-[5.38375rem]">Me,</div>
             <div class="w-[14.125rem] h-[5.38375rem] bg-[#794188] flex justify-center items-center" style="
             transform: rotate(4.03deg);
             "><p style="transform: rotate(-1.03deg);"> Myself & I</p></div>
