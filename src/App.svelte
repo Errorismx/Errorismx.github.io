@@ -1,10 +1,6 @@
 <script>
     import {onMount, onDestroy} from 'svelte'
   import TailwindCSS from './style/TailwindCSS.svelte';
-  // import { fetchNui } from './utils/fetchNui';
-  // import { debugData } from './utils/debugData';
-  const onDevBrowser = () => !window.invokeNative; // is running from fivem
-  let nuiVisible = true
   function openInNewTab(url) {
     window.open(url, '_blank').focus();
   }
